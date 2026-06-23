@@ -1,4 +1,4 @@
-package org.example.ch05.dto;
+package org.example.ch04.dto;
 
 import lombok.*;
 
@@ -11,6 +11,6 @@ import lombok.*;
 public class User1DTO {
     private String userid;
     private String name;
-    private String birth;
-    private String addr;
+    private String hp;
+    private int age;
 }
